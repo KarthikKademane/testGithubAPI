@@ -117,7 +117,7 @@ namespace BulkyBook.Controllers
 
 			_db.Categories.Remove(obj);
 			_db.SaveChanges();
-            TempData["success"] = "Category deleted successfully";
+            TempData["success"] = "Category deleted successfully with greatness";
             return RedirectToAction("Index");
 
 		}
